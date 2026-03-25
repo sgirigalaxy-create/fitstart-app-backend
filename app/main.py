@@ -15,6 +15,7 @@ allowed_origins = [
     settings.FRONTEND_URL,
     "http://localhost:3000",
     "https://fitstart-workout-planner.netlify.app",
+    "https://fitstart-app-ui.netlify.app",
 ]
 # Remove empty strings and duplicates
 allowed_origins = list(set(o for o in allowed_origins if o))
