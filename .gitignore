@@ -11,3 +11,14 @@ venv/
 *-service-account*.json
 firebase-adminsdk*.json
 .pytest_cache/
+*.so
+.Python
+.eggs/
+*.egg
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
